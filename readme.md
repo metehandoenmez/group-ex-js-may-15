@@ -15,9 +15,10 @@ Get the request response using the .json method on the response object.
 
 Write a function that receives the data we got earlier, where we do the following:
 For each list item, using document.createElement, create:
- - a div, with class ".list-item" that contains a list item
+ - a div, with class ".list-item" that contains a list item. Use .className = "list-item" for setting the class.
     - h3 with class "title" tag for the title
-    - input checkbox, with class "completed", and setting the value using what we have in the "completed" property.
+    - input checkbox, with class "completed", and setting the value using what we have in the "completed" property. You can use checkbox.checked = true to check the checkbox.
+    - use container.append() for appending an html tag to another html tag.
 
 
 When we click on "Save to memory", we will save in localStorage all the data we got using that fetch request.
