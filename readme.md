@@ -1,10 +1,10 @@
 
 Start by editing the index.html file:
 
-Create a div with a .container class.
 A button called "refresh", that will trigger the fetch request we will create later.
 A "Save to memory" button., 
 A "Load from Memory" button.
+Create a div with a .container class.
 
 In the main.js file:
 
